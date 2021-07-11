@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <style>
+        .logincontainer{
+            display: flex;
+            justify-content: center;
+        }
+        .loginform{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .loginform input,button{
+            font-size: 1.3em;
+            margin-top: 15px;
+            border: 1px solid gray;
+            padding-left: 10px;
+        }
+        .loginform button{
+            background-color: hotpink;
+            color: white;
+           font-weight: bold;
+
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.5em;
+            margin-right: 15px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <span><a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Product</a></span>
+            <span><a href=""><i class="fas fa-user-circle"></i></a>
+                <a href=""> <i class="fas fa-sign-out-alt"></i></a></span>
+        </nav>
+    </header>
+    <section class="logincontainer">
+       
+        <form action="" class="loginform">
+            <h1>login</h1>
+            <input type="text" name="email" placeholder="your email">
+            <input type="password" name="password" placeholder="your password">
+            <button>Login</button>
+        </form>
+    </section>
+</body>
+</html>

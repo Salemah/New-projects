@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-box</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .box{
+            width: 200px;
+            
+            border: 3px solid green;
+            font-size: 3 em;
+           
+
+        }
+        .contaier{
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            align-items: stretch;
+        }
+        .box2{
+           flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>I'm flexibale right now</h1>
+    <div class="contaier">
+
+        <div class="box">BOS-1</div>
+        <div class="box2">BOS-2</div>
+        <div class="box">BOS-3</div>
+        <div class="box">BOS-4</div>
+    </div>
+</body>
+</html>
